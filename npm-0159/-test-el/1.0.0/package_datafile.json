@@ -1,0 +1,108 @@
+{
+    "name": "-test-el",
+    "version": "1.0.0",
+    "main": "build/index.js",
+    "module": "build/index.es.js",
+    "jsnext:main": "build/index.es.js",
+    "scripts": {
+        "build": "rollup -c",
+        "lint": "standard",
+        "format": "prettier-standard --format",
+        "test": "jest --coverage",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/preset-env": "^7.22.15",
+        "@babel/preset-react": "^7.22.15",
+        "@babel/preset-typescript": "^7.22.15",
+        "@storybook/addon-essentials": "^7.4.0",
+        "@storybook/addon-interactions": "^7.4.0",
+        "@storybook/addon-links": "^7.4.0",
+        "@storybook/addon-onboarding": "^1.0.8",
+        "@storybook/blocks": "^7.4.0",
+        "@storybook/react": "^7.4.0",
+        "@storybook/react-webpack5": "^7.4.0",
+        "@storybook/testing-library": "^0.2.0",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@types/jest": "^24.0.24",
+        "@types/react": "^16.9.17",
+        "@types/react-dom": "^16.9.4",
+        "jest": "^24.9.0",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "rollup": "^1.27.13",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-peer-deps-external": "^2.2.0",
+        "rollup-plugin-typescript2": "^0.25.3",
+        "standard": "^14.3.1",
+        "standard-prettier": "^1.0.1",
+        "storybook": "^7.4.0",
+        "ts-jest": "^24.2.0",
+        "typescript": "^3.7.3"
+    },
+    "peerDependencies": {
+        "react": "^16",
+        "react-dom": "^16"
+    },
+    "jest": {
+        "preset": "ts-jest",
+        "testEnvironment": "jsdom",
+        "testPathIgnorePatterns": [
+            "build/"
+        ]
+    },
+    "standard": {
+        "ignore": [
+            "node_modules/",
+            "build/"
+        ],
+        "globals": [
+            "describe",
+            "it",
+            "test",
+            "expect",
+            "afterAll",
+            "jest"
+        ]
+    },
+    "_id": "-test-el@1.0.0",
+    "gitHead": "02cd616d76b06dd0f46a1b01b833c4335924bc17",
+    "types": "./build/index.d.ts",
+    "_nodeVersion": "18.17.1",
+    "_npmVersion": "10.0.0",
+    "dist": {
+        "integrity": "sha512-Ueq8t/WCdCqsoTDnnLxlhn6lKl3gyJCJeO4T1/tiZ7N6hk92kKkOxfoy5EEZUDqnl2zaoGi160Ey0ic3fCCOlw==",
+        "shasum": "810b9cd91cdd1def2be246e484a86495e6179ce2",
+        "tarball": "https://registry.npmjs.org/-test-el/-/-test-el-1.0.0.tgz",
+        "fileCount": 20,
+        "unpackedSize": 442487,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIDiGzbJpvErKTNERzuiHKxzaIqZ/rPECl96FM1KITW9XAiBZnZzfj+pYyqHpCMZuiCMgSsOs3JwWBU5rP2G11Ohb7A=="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "esignore",
+        "email": "e.signore.89@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "esignore",
+            "email": "e.signore.89@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-test-el_1.0.0_1694184702288_0.9676108218200812"
+    },
+    "_hasShrinkwrap": false
+}

@@ -1,0 +1,50 @@
+{
+    "name": "-guaage-",
+    "version": "1.0.3-beta.5",
+    "description": "",
+    "scripts": {
+        "build": "father build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "module": "dist/index.esm.js",
+    "license": "ISC",
+    "devDependencies": {
+        "father": "^4.4.5"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "tag": "alpha"
+    },
+    "_id": "-guaage-@1.0.3-beta.5",
+    "_nodeVersion": "18.16.0",
+    "_npmVersion": "9.5.1",
+    "dist": {
+        "integrity": "sha512-MJ4PDjF9BdEH/ZCsB854rYssyx0P9u1PlZvkD1ZoB5YtTZ9c3nPphFJXskZj54DqlsFVjd8wFVLrzSE3qJ3ayw==",
+        "shasum": "c29fd18e692ca5f3bdd68bd507098e725ab0e679",
+        "tarball": "https://registry.npmjs.org/-guaage-/-/-guaage--1.0.3-beta.5.tgz",
+        "fileCount": 5,
+        "unpackedSize": 919,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIG8knPC7d7BO1vapKsDICI39PFgHa+vFcJjxftfRJgFEAiBQUKPrIhe8+o4x4U8v1/ZlQpskk0FHqjf3St/dhE7bDw=="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "guanguanerduo",
+        "email": "974242264@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "guanguanerduo",
+            "email": "974242264@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-guaage-_1.0.3-beta.5_1724205686182_0.47670127778333216"
+    },
+    "_hasShrinkwrap": false
+}
